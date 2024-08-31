@@ -1,0 +1,19 @@
+<h3>Educacion</h3>
+
+<table border="0">
+
+    <ul *ngFor="let school of Education; let last = last">
+            <tr>
+                <td> {{school.fecha}} </td>
+            </tr>
+            <tr>
+                <td> {{school.escuela}} </td> <td></td>
+            </tr>
+            <tr>
+                <td> {{school.especialidad}} </td> <td></td>
+            </tr>
+            <tr *ngIf="!last">
+                <td colspan="2">-------</td>
+            </tr>
+    </ul>
+</table>
