@@ -5,10 +5,12 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, HeaderComponent, WorkExperienceComponent, EducationComponent, SkillsComponent],
+
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
