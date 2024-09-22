@@ -1,0 +1,87 @@
+body {
+    background-color: #d1e7f3; 
+    font-family: Arial, sans-serif;
+}
+
+.header-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px auto;
+    background-color: #f9fbfc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+.header-table td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.info {
+    width: 50%;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50; 
+}
+
+.position {
+    font-size: 18px;
+    color: #5d6d7e; 
+    margin-bottom: 10px;
+}
+
+.goal {
+    font-size: 16px;
+    color: #839192; 
+}
+
+.image-cell {
+    width: 20%;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 2px solid #2980b9; 
+}
+
+.contact-info {
+    width: 35%;
+    text-align: right;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    font-size: 16px;
+    color: #2c3e50; 
+    margin-bottom: 5px;
+}
+
+.contact-info li:last-child {
+    font-size: 16px;
+    color: #1f618d; 
+}
+
+.header-table {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f4f8;
+}
+
+.header-table td {
+    border-bottom: 1px solid #dfe6e9;
+}
+
+.header-table td:last-child {
+    border-bottom: none;
+}
+
